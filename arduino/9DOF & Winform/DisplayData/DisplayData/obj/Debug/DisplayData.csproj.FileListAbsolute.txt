@@ -1,0 +1,18 @@
+C:\Users\Joe\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\DisplayData.exe.config
+C:\Users\Joe\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\DisplayData.exe
+C:\Users\Joe\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\DisplayData.pdb
+C:\Users\Joe\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.MainApp.resources
+C:\Users\Joe\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.Properties.Resources.resources
+C:\Users\Joe\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.csproj.GenerateResource.Cache
+C:\Users\Joe\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.exe
+C:\Users\Joe\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.pdb
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\DisplayData.exe.config
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.exe
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.pdb
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\DisplayData.exe
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\DisplayData.pdb
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.MainApp.resources
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.Properties.Resources.resources
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.csproj.GenerateResource.Cache
