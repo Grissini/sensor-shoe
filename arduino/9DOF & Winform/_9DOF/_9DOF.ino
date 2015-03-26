@@ -22,7 +22,7 @@ double Zx = 0.025325, Zy = 0.007651, Zz = 0.945532;
 //#define Zcal accel_event.acceleration.x*Zx+accel_event.acceleration.y*Zy+accel_event.acceleration.z*Zz
 
 Adafruit_ADS1115                  ads0(0x48); // Construct an ads1115 at the default address: 0x48
-Adafruit_ADS1115                  ads1(0x48); // Construct an ads1115 at the default address: 0x48
+Adafruit_ADS1115                  ads1(0x49); // Construct an ads1115 at the default address: 0x48
 
 //
 //#include <Adafruit_BLE_UART.h>
@@ -49,7 +49,7 @@ double X = 0;
 double Y = 0;
 double Z = 0;
 
-int16_t adc0, adc1;//, adc2, adc3, adc4, adc5, adc6, adc7;
+int16_t adc0, adc1, adc2, adc3, adc4, adc5, adc6, adc7;
 
 double Xaccel = 0, Yaccel = 0, Zaccel = 0;
 
@@ -125,13 +125,13 @@ void ADCstuff()
 {
 
   adc0 = ads0.readADC_SingleEnded(0);
-  adc1 = 12000;//ads0.readADC_SingleEnded(1);
-  //adc2 = ads0.readADC_SingleEnded(2);
-  //adc3 = ads0.readADC_SingleEnded(3);
-  //adc4 = ads1.readADC_SingleEnded(0);
-  //adc5 = ads1.readADC_SingleEnded(1);
-  //adc6 = ads1.readADC_SingleEnded(2);
-  //adc7 = ads1.readADC_SingleEnded(3); 
+  adc1 = ads0.readADC_SingleEnded(1);
+  adc2 = ads0.readADC_SingleEnded(2);
+  adc3 = ads0.readADC_SingleEnded(3);
+  adc4 = ads1.readADC_SingleEnded(0);
+  adc5 = ads1.readADC_SingleEnded(1);
+  adc6 = ads1.readADC_SingleEnded(2);
+  adc7 = ads1.readADC_SingleEnded(3); 
 
 
 }
@@ -145,11 +145,11 @@ void BTLEOut()
 //  String Pstr = buf;
 //  dtostrf(H, 6,2,buf);
 //  String Hstr = buf;
-  String RPHstr = String("~")+":"+R+":"+P+":"+H+":"+"~";
+  String RPHstr = String("~")+":"+R+":"+P+":"+H+":~";
 
-  String ADCstr = String("*")+":"+adc0+":"+adc1+":"+"*";
+  String ADCstr = String("*")+":"+adc0+":"+adc1+":"+adc2+":"+adc3+":"+adc4+":"+adc5+":"+adc6+":"+adc7+":*";
 
-  String XYZstr = String("&")+":"+Xaccel+":"+Yaccel+":"+Zaccel+":"+"&";
+  String XYZstr = String("&")+":"+Xaccel+":"+Yaccel+":"+Zaccel+":&";
 //  if (status == ACI_EVT_CONNECTED)
 //  {
 ////    BTLEserial.print("~");

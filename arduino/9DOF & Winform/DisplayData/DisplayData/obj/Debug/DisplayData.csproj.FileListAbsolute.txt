@@ -16,3 +16,20 @@ C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\Dis
 C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.MainApp.resources
 C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.Properties.Resources.resources
 C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\obj\Debug\DisplayData.csproj.GenerateResource.Cache
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\OxyPlot.Xps.dll
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\DisplayDataB3\DisplayData\DisplayData\bin\Debug\OxyPlot.Xps.xml
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\GitHubShoe\sensor-shoe\arduino\9DOF & Winform\DisplayData\DisplayData\bin\Debug\DisplayData.exe.config
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\GitHubShoe\sensor-shoe\arduino\9DOF & Winform\DisplayData\DisplayData\bin\Debug\DisplayData.exe
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\GitHubShoe\sensor-shoe\arduino\9DOF & Winform\DisplayData\DisplayData\bin\Debug\DisplayData.pdb
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\GitHubShoe\sensor-shoe\arduino\9DOF & Winform\DisplayData\DisplayData\obj\Debug\DisplayData.MainApp.resources
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\GitHubShoe\sensor-shoe\arduino\9DOF & Winform\DisplayData\DisplayData\obj\Debug\DisplayData.Properties.Resources.resources
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\GitHubShoe\sensor-shoe\arduino\9DOF & Winform\DisplayData\DisplayData\obj\Debug\DisplayData.csproj.GenerateResource.Cache
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\GitHubShoe\sensor-shoe\arduino\9DOF & Winform\DisplayData\DisplayData\obj\Debug\DisplayData.exe
+C:\Users\Joe\Box Sync\Google Drive\Coding Projects\GitHubShoe\sensor-shoe\arduino\9DOF & Winform\DisplayData\DisplayData\obj\Debug\DisplayData.pdb
