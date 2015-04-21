@@ -16,8 +16,8 @@ double Xx = 0.964450, Xy = 0.023183, Xz = 0.025325;
 double Yx = 0.023183, Yy = 1.008029, Yz = 0.007651;
 double Zx = 0.025325, Zy = 0.007651, Zz = 0.945532;
 
-Adafruit_ADS1015                  ads1(0x48); // Construct an ads1115 at the default address: 0x48
-Adafruit_ADS1015                  ads0(0x49); // Construct an ads1115 at the default address: 0x48
+Adafruit_ADS1115                  ads1(0x48); // Construct an ads1115 at the default address: 0x48
+Adafruit_ADS1115                  ads0(0x49); // Construct an ads1115 at the default address: 0x48
 
 
 //these are the volatile variables that can be modified by the windows GUI
@@ -31,7 +31,7 @@ bool PAlarm = false;
 //allows the use of multiple timing schemes without delays.
 unsigned long curMilli = millis();
 unsigned long prevMilli = 0, prevMilli1 = 0, prevMilli2 = 0;
-unsigned long interval = 50, interval1 = 1000, interval2 = 1000;
+unsigned long interval = 75, interval1 = 1000, interval2 = 1000;
 
 double R = 0;
 double P = 0;
