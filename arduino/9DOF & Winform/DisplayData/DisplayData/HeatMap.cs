@@ -17,8 +17,8 @@ namespace DisplayData
 
 
 			int idx1, idx2;
-			double fracval = value / 32000.00;
-
+			//double fracval = value / 32000.00;
+			double fracval = value / 2480.00;
 
 			double fractBetween = 0;
 
