@@ -1,0 +1,32 @@
+Instructions for how to run the program with the basic testing cycle that is available currently
+
+INTRO
+There currently is no initialization code within the arduino, so this readme assumes you are using the arduino with the IMU flat to the ground to start.
+
+The default values for the "alarms" are as follows:
+posRoll: 30 degrees, negRoll: -30 degrees, posPitch: 30 degrees, negPitch: -30 degrees
+
+Probably missed something in here it is 3 am though however, so just pester me if you run into any issues following this.
+
+SETUP AND CONNECTION
+1. Power up the device and make sure the bluetooth and the module have powered on.
+2. Upload .ino from the current "...sensor-shoe\arduino\9DOF & Winform\Shoe_sensor" folder to the arduino.
+3. Once upload is complete, open .exe that is accompanied by this Readme.
+4. Within the program in the drop down menu that should be defaulted to "VirtualCom" select the Com port that the arduino is connected to.
+5. Once com port is selected, click "Open Serial Comm" button
+6. The bluefruit red led flash should speed up at this point and then the arduino will reset.
+7. Once the arduino has completed its reset you are ready to use the program.
+
+RUNNING THE TRACKING FEATURE
+1. Assuming you have connected to the arduino and it has reset your main option is to click "Toggle Tracking"
+
+Note: This will enable multiple things, the graphs will be populated with data, if you press the pressure sensors, they will change color (pressure sensor correlation is not guaranteed as pin connection may have changed). The Pitch and roll labels will update in real-time as well. On the arduino side, the pitch and roll alarms should activate at their proper values and should create a tone.
+
+2. To stop tracking click "Toggle Tracking"
+
+CHANGING THE ROLL AND PITCH ALARMS
+1. With the arduino connected (this can happen before or after you have used the tracking feature however it cannot be done whilst tracking, if this is attempted bad things will happen.) choose the Settings menu then "Shoe Settings"
+2. A dialog will pop up enter positive numbers in the positive boxes and negative in the negative boxes (make sure you add the negative sign for the right two boxes currently. Also it is necessary to use a number 10 or greater with the current code).
+3a. Once you have entered in values choose "Push Settings".
+3b. If however you have changed your mind, then select "Cancel"
+4. Now when Tracking is enabled the alarms should not go off until the sensor passes the new thresholds.
