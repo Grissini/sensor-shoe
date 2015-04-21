@@ -8,9 +8,11 @@ posRoll: 30 degrees, negRoll: -30 degrees, posPitch: 30 degrees, negPitch: -30 d
 
 Probably missed something in here it is 3 am though however, so just pester me if you run into any issues following this.
 
+The libraries folder on GitHub has a .zip folder containing all of the libraries that are referenced by the arduino code. if you are running into issues with the code and a dependency those are the versions that work with the code and running arduino 1.6.0
+
 SETUP AND CONNECTION
 1. Power up the device and make sure the bluetooth and the module have powered on.
-2. Upload .ino from the current "...sensor-shoe\arduino\9DOF & Winform\Shoe_sensor" folder to the arduino.
+2. Upload .ino from the current "...sensor-shoe\arduino\9DOF & Winform\Shoe_sensor" folder to the arduino (you can push it to the com port the bluetooth is on and choose UNO for the board type).
 3. Once upload is complete, open .exe that is accompanied by this Readme.
 4. Within the program in the drop down menu that should be defaulted to "VirtualCom" select the Com port that the arduino is connected to.
 5. Once com port is selected, click "Open Serial Comm" button
